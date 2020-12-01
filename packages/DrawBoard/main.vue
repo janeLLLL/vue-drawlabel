@@ -362,7 +362,6 @@ export default {
               (this.locationDetile[key][5] - this.locationDetile[key][1]) *
               this.imageScale,
           };
-
           this.activeGraphic = figureFactory(
             this.currentTool,
             { x: firstPoint.x, y: firstPoint.y },
